@@ -9,8 +9,31 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="header">
+  <div class="container">
+    <div class="pull-left">
+      <ul class="menu">
+        <li><%= link_to "Home", home_path %></li>
+        <li><%= link_to "Portfolio", portfolio_path %></li>
+      </ul>
+    </div>
+  	<div class="pull-right">
+    	<h1>Christoffer Nygaard</h1>
+    </div>
+	</div>
+</div>
 
 <%= yield %>
 
+<div class="footer">
+  <div class="container">
+    <a href="#"><img width="20px" src="https://image.flaticon.com/icons/svg/59/59439.svg"></a>
+    <a href="#"><img width="20px" src="https://image.flaticon.com/icons/svg/34/34227.svg"></a>
+    <a href="#"><img width="20px" src="https://image.flaticon.com/icons/svg/8/8800.svg"></a>
+    <p class="pull-right">Christoffer Nygaard (2016)</p>
+  </div>
+</div>
+
+<%= javascript_include_tag "application" %>
 </body>
 </html>
