@@ -4,9 +4,11 @@ Rails.application.routes.draw do
   get '/' => 'pages#welcome', as: :home
   get "/blog" => redirect("http://www.christoffer-n.com"), :as => :blog
   get '/about' => 'pages#about', as: :about
+  get '/contact' => 'pages#contact', as: :contact
   resources :portfolio
   resources :welcome
   resources :about
+  resources :contact
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
