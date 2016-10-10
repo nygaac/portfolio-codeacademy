@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.banner img {
+  margin: 0 auto;
+}
+
 .b1 {
   background: url("http://www.christoffer-n.com/web-portfolio/img/projects/blackjack-front.png") center bottom;
   background-size: cover;
@@ -39,10 +43,6 @@ body {
 .b3 {
   background: url("http://www.christoffer-n.com/web-portfolio/img/projects/christoffer-n-front.png") center top;
   background-size: cover;
-}
-
-.center {
-  padding-top: 25px;
 }
 
 .menu li {
