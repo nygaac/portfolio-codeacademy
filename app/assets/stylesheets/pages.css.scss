@@ -1,6 +1,9 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  overflow-y: scroll;
+}
 
 .main {
   background: url("https://portfolio-rails-2633.herokuapp.com/assets/home-db103bf75e724b89102c607792424914.jpg") center center;
@@ -11,7 +14,7 @@
   padding-top: 40px;
 }
 
-.main2 {
+.portfolio {
   background: white;
   height: 400px;
   color: grey;

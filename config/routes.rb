@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'pages#welcome'
   get '/portfolio' => 'pages#portfolio', as: :portfolio
   get '/' => 'pages#welcome', as: :home
+  get "/blog" => redirect("http://www.christoffer-n.com"), :as => :blog
   resources :portfolio
   resources :welcome
   
