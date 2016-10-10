@@ -15,7 +15,7 @@ body {
 }
 
 .portfolio {
-  background: white;
+  background: #EEE;
   height: 400px;
   color: grey;
   text-align: center;
@@ -68,4 +68,8 @@ h1 {
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.col-sm-6 img {
+  width: 90%;
 }
